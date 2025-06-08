@@ -1,0 +1,210 @@
+---
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    code-fold: true
+    code-tools: true
+    code-link: true
+    slide-number: true
+    incremental: false
+    transition: slide 
+    transition-speed: fast
+    css: estilo.css
+    embed-resources: true
+    controls: true
+    footer: |
+      <span style="font-size: 0.7em; color: #537d90;">Fostering public good contributions</span>
+output-file: index.html
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+# Fostering public good contributions with public awards: a natural experiment at Wikipedia {.diapositiva-titulo style="background: none;" data-menu-title="Titulo"}
+
+<img src="svg/logo.png" class="imglogoslide1"/>
+
+Jana Gallus (2014)
+
+::: {style="text-align: right; margin-top: 1em; margin-bottom: 1em"}
+Presentación: Ignacio Garijo Campos, 
+
+Estudiante de Doctorado de Ciencia de datos
+:::
+
+## MOTIVACIÓN E INTRODUCCIÓN
+
+::: {layout="[[1,1]]"}
+### MOTIVACIÓN
+::: column
+::: callout
+::: {style="font-size: 1.3em;"}
+- Preocupación creciente en Wikipedia por las tasas de retención de los editores
+- Se realiza un experimento en Wikipedia Germany para ver si los premios simbólicos (no monetarios) pueden ayudar a revertir la situación
+:::
+:::
+:::
+
+### POR QUÉ ES IMPORTANTE
+
+::: column
+::: callout
+::: {style="font-size: 1.3em;"}
+- Los premios no monetarios tienen coste prácticamente 0, por lo que es un recurso potencialmente utilizable por todo el que lo necesite
+- Se utiliza un diseño experimental que aleatoriza quién recibe premios para evitar selección endógena si solamente se compararan medias de aquellos que reciben premios o no. Los efectos calculados son por tanto causales.
+:::
+:::
+:::
+
+:::
+
+## El diseño experimental
+
+
+::: callout
+::: {style="font-size: 1.3em;"}
+::: {.fragment .fade-out}
+
+- El experimento dura 11 meses, y sigue el siguiente proceso:
+:::
+
+::: {.fragment .fade-in-then-out}
+
+(@) Cada mes se descargan datos de Wikipedia de nuevos editores.
+:::
+::: {.fragment .fade-in-then-out}
+
+(@) Se seleccionan a aquellos que no son "vándalos" (i.e. han realizado aportaciones serias) y han hecho al menos dos aportaciones en un rango de más de 5 días. Esto asegura que son usuarios activos que verían el emblema en caso de ser seleccionados.
+:::
+::: {.fragment .fade-in-then-out}
+
+(@) Se hace la lotería y algunos de los elegibles son seleccionados (150 cada mes de una media de 370 aprox.)
+:::
+::: {.fragment .fade-in-then-out}
+
+(@) Se crea una página de Wikipedia con los nombres de usuario de los que reciben el premio como reconocimiento extra
+:::
+::: {.fragment .fade-in-then-out}
+
+(@) Después de eso, se guarda a nivel mensual: 
+  - Participaciones totales en Wikipedia
+  - Número total de ediciones de artículos
+  - Número de involucraciones en tareas burocráticas 
+  - Quién pone en su página de usuario el premio
+  
+:::
+:::
+:::
+
+
+## Resultados
+
+::: {.callout}
+::: { style="font-size: 1.3em"}
+- La comparación de medias muestra diferencias significativas un mes después.
+- El efecto de los premios se mantiene durante 4 trimestres aunque cada vez es menor y menos significativo.
+- El quinto trimestre ya no es significativo. 
+:::
+:::
+
+::: {.panel-tabset}
+
+### Actividad general
+::: {layout="[[1,1]]"}
+::: .column
+![](graficos/bar.jpg){width="60%"}
+
+:::
+
+::: .column
+- Diferencia de 7 puntos porcentuales en la actividad general significativa al 99% (p-valor<0.001) un mes más tarde
+- Esa diferencia se disminuye a 6 puntos porcentuales en el segundo mes
+
+
+:::
+:::
+
+### Ediciones de artículos
+::: {layout="[[1,1]]"}
+::: .column
+![](graficos/line.jpg){width="60%"}
+
+:::
+
+::: .column
+- Diferencia de 4 puntos porcentuales en la actividad general significativa al 95% (p-valor 0.017) un mes más tarde, que se mantiene en el segundo mes.
+
+- El gráfico 2 muestra que, desagregando por el nivel de edición, el tratamiento consigue menos autores inactivos, a la vez que más autores activos a todos los niveles.
+
+- Es decir, el tratamiento no sólo consigue más autores activos sino que lo hace a todos los niveles (aunque los efectos sobre los usuarios muy activos es menor)
+
+
+:::
+:::
+
+### Self-identification with the community
+
+::: {layout="[[1,1]]"}
+::: .column
+![](graficos/tabla.jpg){width="60%"}
+
+:::
+
+::: .column
+- Los usuarios afectador por el tratamiento también son más proclives a sentirse identificados con la comunidad, medido como la actividad en tareas más burocráticas y mundanas de Wikipedia.
+
+1. Son 7 p.p. más activos en chats internos de Wikipedia
+
+2. Son 2 p.p. más activos en páginas donde se discute y organiza el propio proyecto de Wikipedia
+
+3. Son 4 p.p. más proclives a editar su perfil para presentarse a la comunidad
+
+4. Son 4 p.p. más proclives a conectar con otros usuarios para poder mantener contacto directo entre ellos
+
+:::
+:::
+:::
+
+## Discusión
+
+::: panel-tabset
+
+### Posibles explicaciones
+
+Existen diferentes posibles explicaciones que pueden estar detrás del impacto de los premios en la mayor actividad de los usuarios: 
+
+::: {.fade-in}
+- Identificación con la comunidad: los usuarios que reciben el premio pueden sentirse más acogidos y parte de la comunidad, y por tanto, son más activos. 
+:::
+
+::: {.fade-in}
+- Estatus y reputación: los premiados añadieron el premio a su página personal o perfil con gran probabilidad
+:::
+
+::: {.fade-in}
+- Reconocimiento: el reconocimiento de un premio puede estar motivándoles a seguir contribuyendo a la comunidad
+:::
+
+::: {.fade-in}
+- Evaluación potencial: los premios pueden actuar como señal para los autores de que su trabajo está siendo verdaderamente evaluado.
+:::
+
+### Spill-overs
+
+Aunque el artículo no lo evalúa, se menciona que la mayor involucración y satisfacción de los nuevos autores podría dar lugar a que los "mentores" que tienen asignados 
+
+:::
+
+## Limitaciones y posibles extensiones
+
+- Posible contaminación del grupo de control
+  - Por un lado, es posible que el grupo de control viera en internet estos premios y por tanto se haya desilusionado al no conseguirlo, provocando una sobreestimación de los efectos del experimento. Es por ello que un análisis adicional comparando la actividad del grupo de tratamiento con la actividad de usuarios anteriores al experimento (before-after) podría aportar a los resultados.
+  
+  - Por otro lado, es posible que usuarios del grupo de control hayan sido más activos debido a que, habiendo visto los premios en internet o en foros, hayan intentado seguir siendo activos para ver si lo conseguían. Esto sesgaría los efectos de tratamiento hacia abajo. 
+  
+  
+- Las diferencias en edición de artículos son significativas pero pequeñas, y se van desvaneciendo con el tiempo. 
+
+- Sólo son elegibles para los grupos de tratamiento y control las personas que han hecho dos ediciones seguidas en un periodo de 5 días, para tener la seguridad de que 
+
+
