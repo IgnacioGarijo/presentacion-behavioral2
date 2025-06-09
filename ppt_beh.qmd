@@ -151,7 +151,7 @@ Estudiante de Doctorado de Ciencia de datos
 :::
 
 ::: .column
-- Los usuarios afectador por el tratamiento también son más proclives a sentirse identificados con la comunidad, medido como la actividad en tareas más burocráticas y mundanas de Wikipedia.
+- Los usuarios afectados por el tratamiento también son más proclives a sentirse identificados con la comunidad, medido como la actividad en tareas más burocráticas y mundanas de Wikipedia.
 
 1. Son 7 p.p. más activos en chats internos de Wikipedia
 
@@ -191,20 +191,20 @@ Existen diferentes posibles explicaciones que pueden estar detrás del impacto d
 
 ### Spill-overs
 
-Aunque el artículo no lo evalúa, se menciona que la mayor involucración y satisfacción de los nuevos autores podría dar lugar a que los "mentores" que tienen asignados 
+Aunque el artículo no lo evalúa, se menciona que la mayor involucración y satisfacción de los nuevos autores podría dar lugar a que los "mentores" que tienen asignados también se vean más motivados y por lo tanto la tasa de retención para los mentores también pueda potencialmente mejorar.
 
 :::
 
 ## Limitaciones y posibles extensiones
 
 - Posible contaminación del grupo de control
-  - Por un lado, es posible que el grupo de control viera en internet estos premios y por tanto se haya desilusionado al no conseguirlo, provocando una sobreestimación de los efectos del experimento. Es por ello que un análisis adicional comparando la actividad del grupo de tratamiento con la actividad de usuarios anteriores al experimento (before-after) podría aportar a los resultados.
+  - Por un lado, es posible que el grupo de control viera en internet estos premios y por tanto se haya desilusionado al no conseguirlo, provocando una sobreestimación de los efectos del experimento. Es por ello que un análisis adicional comparando la actividad del grupo de tratamiento con la actividad de nuevos usuarios antes del experimento (before-after) podría aportar a los resultados.
   
   - Por otro lado, es posible que usuarios del grupo de control hayan sido más activos debido a que, habiendo visto los premios en internet o en foros, hayan intentado seguir siendo activos para ver si lo conseguían. Esto sesgaría los efectos de tratamiento hacia abajo. 
   
   
 - Las diferencias en edición de artículos son significativas pero pequeñas, y se van desvaneciendo con el tiempo. 
 
-- Sólo son elegibles para los grupos de tratamiento y control las personas que han hecho dos ediciones seguidas en un periodo de 5 días, para tener la seguridad de que 
+- Sólo son elegibles para los grupos de tratamiento y control las personas que han hecho dos ediciones seguidas en un periodo de 5 días, para tener la seguridad de que esas personas verían el premio en caso de ser seleccionados en el tratamiento. Esto significa que los resultados se limitan a una porción de los usuarios, y por tanto están posiblemente sobreestimados. Si el experimento se hubiera aplicado a todos los nuevos usuarios, el efecto del tratamiento real sería más bajo ya que algunos en el tratamiento no habrían visto el premio. Esto, en mi opinión, debería ser parte de los resultados.
 
 
