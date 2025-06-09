@@ -22,7 +22,7 @@ editor:
 
 # Fostering public good contributions with public awards: a natural experiment at Wikipedia {.diapositiva-titulo style="background: none;" data-menu-title="Titulo"}
 
-<img src="svg/logo.png" class="imglogoslide1"/>
+<img src="svg/logo4.jpeg" class="imglogoslide1"/>
 
 Jana Gallus (2014)
 
